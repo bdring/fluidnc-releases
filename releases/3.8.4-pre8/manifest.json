@@ -11,7 +11,7 @@
       "path": "esp32/wifi/firmware.bin",
       "signature": {
         "algorithm": "SHA2-256",
-        "value": "5d551784b9e5ee0a358794b1c2ac2d5fa0cf6a4c2c307ddd46e87af0a554ed8d"
+        "value": "a77c6705cbdf443ef20677f83b596c5f1e218b004cf22b2b9401d6e3d12ff2c2"
       }
     },
     "esp32-wifi-4m-filesystem": {
@@ -20,7 +20,7 @@
       "path": "esp32/wifi/4m/littlefs.bin",
       "signature": {
         "algorithm": "SHA2-256",
-        "value": "c83b77cd0b577f6deb354986a764626c2df362130a9c4ccf8ed027dddb2b6b15"
+        "value": "536e44055c42bb37facbcfb3178dbdf0dc93d49937dbc41e5431110845ed8f63"
       }
     },
     "esp32-4m-partitions": {
@@ -56,7 +56,7 @@
       "path": "esp32/bt/firmware.bin",
       "signature": {
         "algorithm": "SHA2-256",
-        "value": "fd03542206e3812106fa0ab7d96a88b723a21f885cad2efcd0ceac4e5dfccad2"
+        "value": "16c29aad47b4fd7bab6854ee00902b8c2945a1b82df969391e85a546b6f57001"
       }
     },
     "esp32-noradio-firmware": {
@@ -65,7 +65,7 @@
       "path": "esp32/noradio/firmware.bin",
       "signature": {
         "algorithm": "SHA2-256",
-        "value": "49880911b11affd74530258b25769367b33586e4f8ee08853369b8cfc606a80a"
+        "value": "708190e17d4fd1db20572a40606f30f94e723f92e5c867af2ca30848a84b85f8"
       }
     }
   },
