@@ -97,7 +97,7 @@
     },
     "esp32s3-bootloader": {
       "size": 15104,
-      "offset": "0x1000",
+      "offset": "0x0",
       "path": "esp32s3/bootloader.bin",
       "signature": {
         "algorithm": "SHA2-256",
