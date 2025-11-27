@@ -6,12 +6,12 @@
   "funding_url": "https://www.paypal.com/donate/?hosted_button_id=8DYLB6ZYYDG7Y",
   "images": {
     "esp32-wifi-firmware": {
-      "size": 1909872,
+      "size": 1909696,
       "offset": "0x10000",
       "path": "esp32/wifi/firmware.bin",
       "signature": {
         "algorithm": "SHA2-256",
-        "value": "d8fb35c4d8fe773bee7c1003487873929ebabf91d601cd532c2372817bc00e70"
+        "value": "783eb2f304ee7b24dbbf279fc6732bf7c2bfa2ac9d3385e9bb5d4cd2e4d58c7d"
       }
     },
     "esp32-wifi-4m-filesystem": {
@@ -20,7 +20,7 @@
       "path": "esp32/wifi/4m/littlefs.bin",
       "signature": {
         "algorithm": "SHA2-256",
-        "value": "ad9115c1ded8889fdd3d2db4a3c70787f45cbe7f94981ca151ebf9612d47fbb2"
+        "value": "0675eecd6327dd2a390fa2b5d3a3f3f38796f6a2e5eb1f28f12153adc496ac3a"
       }
     },
     "esp32-4m-partitions": {
@@ -51,30 +51,30 @@
       }
     },
     "esp32-bt-firmware": {
-      "size": 1130224,
+      "size": 1130176,
       "offset": "0x10000",
       "path": "esp32/bt/firmware.bin",
       "signature": {
         "algorithm": "SHA2-256",
-        "value": "921fd3928dd9f4fe8ae262c4a6540cb214a2cf4168a940765fb4488997bf54e8"
+        "value": "0da7289a3bdab68371f916a914c6ac78fbe57e08d487599bcf5c52735b08f81e"
       }
     },
     "esp32-noradio-firmware": {
-      "size": 1117824,
+      "size": 1117904,
       "offset": "0x10000",
       "path": "esp32/noradio/firmware.bin",
       "signature": {
         "algorithm": "SHA2-256",
-        "value": "d8b03544b10b9c0d42765fd219364615646e76367a1f1f43d334618362d77d05"
+        "value": "3bdf440c702f467f47106790b765741a188efba21d5cc2b1835e4c35eba3da5f"
       }
     },
     "esp32s3-wifi-firmware": {
-      "size": 1901552,
+      "size": 1901280,
       "offset": "0x10000",
       "path": "esp32s3/wifi/firmware.bin",
       "signature": {
         "algorithm": "SHA2-256",
-        "value": "34c907cbbd10092c1766506857882cf98dacaa5ff8176bb20f34fa4ccd5f7944"
+        "value": "e3cd93b0955612c6dba76bf71af00aee2abe3e3aff76a84774a5abb3a434c42d"
       }
     },
     "esp32s3-wifi-4m-filesystem": {
@@ -83,7 +83,7 @@
       "path": "esp32s3/wifi/4m/littlefs.bin",
       "signature": {
         "algorithm": "SHA2-256",
-        "value": "83fa94c7b22bf721da83d04c72ebe5b9d00cb71879d34daf9300f67ef38930f4"
+        "value": "1613b21d248d51f7afc0317410de65834340d2c7f1ffdc736cdbf5623c4d19ad"
       }
     },
     "esp32s3-4m-partitions": {
@@ -114,12 +114,12 @@
       }
     },
     "esp32s3-noradio-firmware": {
-      "size": 1157680,
+      "size": 1157696,
       "offset": "0x10000",
       "path": "esp32s3/noradio/firmware.bin",
       "signature": {
         "algorithm": "SHA2-256",
-        "value": "5e53ce30a02301dd91aa79b9d656c5576acf8a9f6c87cb5e7eeafbf3c01fc0a9"
+        "value": "29da7a671984fca622f22fd0a5064e861a4b3c4d75d3dfd44f1e2297cb8c6296"
       }
     }
   },
