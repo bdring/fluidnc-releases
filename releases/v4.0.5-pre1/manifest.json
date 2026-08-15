@@ -1,0 +1,388 @@
+{
+  "name": "FluidNC",
+  "version": "v4.0.5-pre1",
+  "source_url": "https://github.com/bdring/FluidNC/tree/v4.0.5-pre1",
+  "release_url": "https://github.com/bdring/FluidNC/releases/tag/v4.0.5-pre1",
+  "funding_url": "https://www.paypal.com/donate/?hosted_button_id=8DYLB6ZYYDG7Y",
+  "images": {
+    "esp32-wifi-firmware": {
+      "size": 1806592,
+      "offset": "0x10000",
+      "path": "esp32/wifi/firmware.bin",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "f8a4bca3b6b2c6ef92bb6dbfa768e2eeb890abbff05face14519f7fa1185d759"
+      }
+    },
+    "esp32-wifi-4m-filesystem": {
+      "size": 196608,
+      "offset": "0x3d0000",
+      "path": "esp32/wifi/4m/littlefs.bin",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "026838431914acdd81d5aeca79330b7e07e9e1665a3636a1285177a0da266457"
+      }
+    },
+    "esp32-4m-partitions": {
+      "size": 3072,
+      "offset": "0x8000",
+      "path": "esp32/4m/partitions.bin",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "1ae446228d79cf83a4b83de41c33d1e01dc21a3557149d7da90fbcbfc303311d"
+      }
+    },
+    "esp32-bootloader": {
+      "size": 17568,
+      "offset": "0x1000",
+      "path": "esp32/bootloader.bin",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "5b1b0cd6bcbfd6de6d388652a46e9b6e341f36adb9127d1e654d21dadeae74bd"
+      }
+    },
+    "esp32-bootapp": {
+      "size": 8192,
+      "offset": "0xe000",
+      "path": "esp32/boot_app0.bin",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"
+      }
+    },
+    "esp32-bt-firmware": {
+      "size": 1770800,
+      "offset": "0x10000",
+      "path": "esp32/bt/firmware.bin",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "e3e4343fefc9760d039a98e6ad990aab7aa612c34952f845a033fb09666cef70"
+      }
+    },
+    "esp32-noradio-firmware": {
+      "size": 1093296,
+      "offset": "0x10000",
+      "path": "esp32/noradio/firmware.bin",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "f3b41c47f6767638464206e07caf8c3f0f7e81368dcbaff66b6fbbbb75e05c60"
+      }
+    },
+    "esp32s3-wifi-firmware": {
+      "size": 2522416,
+      "offset": "0x10000",
+      "path": "esp32s3/wifi/firmware.bin",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "571b2f1955cba791cae54fa01c2a2dbb6dc7f73e6a31bcb53ad0acfd810c085f"
+      }
+    },
+    "esp32s3-wifi-4m-filesystem": {
+      "size": 2031616,
+      "offset": "0x3d0000",
+      "path": "esp32s3/wifi/4m/littlefs.bin",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "e9cf01a35ad3eaed45f7b4a4b6a60c21bfd000d12c788bcac1ed3b02d4b03ecb"
+      }
+    },
+    "esp32s3-4m-partitions": {
+      "size": 3072,
+      "offset": "0x8000",
+      "path": "esp32s3/4m/partitions.bin",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "a67752ec6219ff63f32ee2416bfa0005ed34d0e6dba59a36eba21f6c666319c5"
+      }
+    },
+    "esp32s3-bootloader": {
+      "size": 19984,
+      "offset": "0x0",
+      "path": "esp32s3/bootloader.bin",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "3a06e81d78e928687d7acd8abcd069543a4413de4398e2e2940a97b3fc739fd8"
+      }
+    },
+    "esp32s3-bootapp": {
+      "size": 8192,
+      "offset": "0xe000",
+      "path": "esp32s3/boot_app0.bin",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"
+      }
+    },
+    "esp32s3-noradio-firmware": {
+      "size": 1310048,
+      "offset": "0x10000",
+      "path": "esp32s3/noradio/firmware.bin",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "2138fd78ad9820fed011fd8a205929cac56df4a8c8b4d02ed06c2b916b8ec294"
+      }
+    }
+  },
+  "files": {
+    "WebUI-2": {
+      "size": 120268,
+      "controller-path": "/localfs/index.html.gz",
+      "path": "data/index-webui-2.html.gz",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "c2552c64f620b530c7169198ee578683e749d988b58e36a8bede68a7b25177d7"
+      }
+    },
+    "WebUI-3": {
+      "size": 107835,
+      "controller-path": "/localfs/index.html.gz",
+      "path": "data/index-webui-3.html.gz",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "46f6a276e1c4d17f17cfd6a5c48d44d5cb23ea16ce32e67194ee160951d030fa"
+      }
+    },
+    "FigUI": {
+      "size": 154705,
+      "controller-path": "/localfs/index.html.gz",
+      "path": "data/index-figui.html.gz",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "aec98c69631ed3cd30deeac3152d63a0578d4ff84679243d433ee5dd4c8825ba"
+      }
+    }
+  },
+  "addrinfo": {
+    "esp32-wifi-addrinfo": {
+      "size": 1101301,
+      "path": "esp32/wifi/firmware.addrinfo",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "6a44cba22396089c4957a0f1e3b7875c7f35f7611666c0ee99a4f4e86a1dc11b"
+      }
+    },
+    "esp32-bt-addrinfo": {
+      "size": 1145154,
+      "path": "esp32/bt/firmware.addrinfo",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "a1027de44032172a448897bd4b90f59625fe88c571fafde68f90c3334d14b74c"
+      }
+    },
+    "esp32-noradio-addrinfo": {
+      "size": 702534,
+      "path": "esp32/noradio/firmware.addrinfo",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "9d643278f6daba62c6ac0b3f8463e04ec4ea4286f50d06e1a6f6fab7bce2bda3"
+      }
+    },
+    "esp32s3-wifi-addrinfo": {
+      "size": 1744486,
+      "path": "esp32s3/wifi/firmware.addrinfo",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "2bf295d6b00dec8e7db736754dd769b9f47f2f22278f7bc27c005714b1c71b70"
+      }
+    },
+    "esp32s3-noradio-addrinfo": {
+      "size": 870698,
+      "path": "esp32s3/noradio/firmware.addrinfo",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "9e23e76fd6fc9b1bc24590a10b3c9dbfde5ca38174732c855ea4e43415c82131"
+      }
+    }
+  },
+  "docs": {
+    "config-items": {
+      "size": 126779,
+      "path": "docs/config_items.yaml",
+      "signature": {
+        "algorithm": "SHA2-256",
+        "value": "990e0eb0f7742642206edc14c8b49222a16edf402ac12c15825e7e1bc539c3b1"
+      }
+    }
+  },
+  "upload": {
+    "name": "upload",
+    "description": "Things you can upload to the file system",
+    "choice-name": "Upload group",
+    "choices": [
+      {
+        "name": "WebUI generation 2",
+        "description": "Add WebUI to local filesystem",
+        "files": [
+          "WebUI-2"
+        ]
+      },
+      {
+        "name": "WebUI generation 3",
+        "description": "Add WebUI to local filesystem",
+        "files": [
+          "WebUI-3"
+        ]
+      },
+      {
+        "name": "FigUI",
+        "description": "Add FigUI to local filesystem",
+        "files": [
+          "FigUI"
+        ]
+      }
+    ]
+  },
+  "installable": {
+    "name": "installable",
+    "description": "Things you can install",
+    "choice-name": "Processor type",
+    "choices": [
+      {
+        "name": "esp32",
+        "description": "ESP32-WROOM",
+        "choice-name": "Firmware variant",
+        "choices": [
+          {
+            "name": "wifi",
+            "description": "Supports WiFi and WebUI",
+            "choice-name": "Installation type",
+            "choices": [
+              {
+                "name": "fresh-install",
+                "description": "Complete FluidNC installation, erasing all previous data",
+                "erase": true,
+                "images": [
+                  "esp32-4m-partitions",
+                  "esp32-bootloader",
+                  "esp32-bootapp",
+                  "esp32-wifi-firmware",
+                  "esp32-wifi-4m-filesystem"
+                ]
+              },
+              {
+                "name": "firmware-update",
+                "description": "Update FluidNC to latest firmware version, preserving previous filesystem data.",
+                "erase": false,
+                "images": [
+                  "esp32-wifi-firmware"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "bt",
+            "description": "Supports Bluetooth serial",
+            "choice-name": "Installation type",
+            "choices": [
+              {
+                "name": "fresh-install",
+                "description": "Complete FluidNC installation, erasing all previous data",
+                "erase": true,
+                "images": [
+                  "esp32-4m-partitions",
+                  "esp32-bootloader",
+                  "esp32-bootapp",
+                  "esp32-bt-firmware"
+                ]
+              },
+              {
+                "name": "firmware-update",
+                "description": "Update FluidNC to latest firmware version, preserving previous filesystem data.",
+                "erase": false,
+                "images": [
+                  "esp32-bt-firmware"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "noradio",
+            "description": "Supports neither WiFi nor Bluetooth",
+            "choice-name": "Installation type",
+            "choices": [
+              {
+                "name": "fresh-install",
+                "description": "Complete FluidNC installation, erasing all previous data",
+                "erase": true,
+                "images": [
+                  "esp32-4m-partitions",
+                  "esp32-bootloader",
+                  "esp32-bootapp",
+                  "esp32-noradio-firmware"
+                ]
+              },
+              {
+                "name": "firmware-update",
+                "description": "Update FluidNC to latest firmware version, preserving previous filesystem data.",
+                "erase": false,
+                "images": [
+                  "esp32-noradio-firmware"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "esp32s3",
+        "description": "ESP32-S3-WROOM-1",
+        "choice-name": "Firmware variant",
+        "choices": [
+          {
+            "name": "wifi",
+            "description": "Supports WiFi and WebUI",
+            "choice-name": "Installation type",
+            "choices": [
+              {
+                "name": "fresh-install",
+                "description": "Complete FluidNC installation, erasing all previous data",
+                "erase": true,
+                "images": [
+                  "esp32s3-4m-partitions",
+                  "esp32s3-bootloader",
+                  "esp32s3-bootapp",
+                  "esp32s3-wifi-firmware",
+                  "esp32s3-wifi-4m-filesystem"
+                ]
+              },
+              {
+                "name": "firmware-update",
+                "description": "Update FluidNC to latest firmware version, preserving previous filesystem data.",
+                "erase": false,
+                "images": [
+                  "esp32s3-wifi-firmware"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "noradio",
+            "description": "Does not support WiFi",
+            "choice-name": "Installation type",
+            "choices": [
+              {
+                "name": "fresh-install",
+                "description": "Complete FluidNC installation, erasing all previous data",
+                "erase": true,
+                "images": [
+                  "esp32s3-4m-partitions",
+                  "esp32s3-bootloader",
+                  "esp32s3-bootapp",
+                  "esp32s3-noradio-firmware"
+                ]
+              },
+              {
+                "name": "firmware-update",
+                "description": "Update FluidNC to latest firmware version, preserving previous filesystem data.",
+                "erase": false,
+                "images": [
+                  "esp32s3-noradio-firmware"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
